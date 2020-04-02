@@ -31,7 +31,6 @@ public class JobRemoval extends JavaPlugin implements Listener {
 		if (message.startsWith("/jobs") || message.startsWith("/job")) {
 			e.getPlayer().sendMessage(ChatColor.translateAlternateColorCodes('&', config.getString("message")));
 			e.setCancelled(true);
-			return;
 		}
 	}
 
