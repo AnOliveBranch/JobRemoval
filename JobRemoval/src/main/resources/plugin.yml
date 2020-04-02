@@ -1,0 +1,5 @@
+name: JobRemoval
+author: RoboticPlayer
+main: me.roboticplayer.jobremoval.JobRemoval
+version: 1.0
+softdepend: [Jobs]
